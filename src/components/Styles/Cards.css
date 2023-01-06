@@ -1,0 +1,11 @@
+.cards-holder {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.cards {
+    flex: 0 0 30%;
+    margin: 10px;
+    border-radius: 20px;
+}

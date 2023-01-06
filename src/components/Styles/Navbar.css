@@ -1,0 +1,40 @@
+.Navbar {
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pages {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.pages-active {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+    height: 70px;
+    color: black;
+}
+
+.pages:hover {
+    background-color: white;
+    height: 70px;
+    text-decoration: underline;
+    color: black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.logo {
+    filter: invert(100%);
+}

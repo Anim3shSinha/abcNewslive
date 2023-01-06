@@ -1,0 +1,19 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    height: 130px;
+    background-color: aliceblue;
+    box-shadow: 10px 10px lightblue;
+}
+
+.card:hover {
+    box-shadow: 15px 15px lightblue;
+}
+
+.card-image {
+    width: 50%;
+}
+
+.card-content {
+    width: 50%;
+}
